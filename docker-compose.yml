@@ -6,7 +6,7 @@ services:
     image: alpine:3
     user: "${UID}:${GID}"
     volumes:
-      - ..:/data
+      - .:/data
     working_dir: /data
 
   cleanup:
