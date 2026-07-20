@@ -22,7 +22,7 @@ In the following examples, the `UID` and `GID` values are stored in an `.env` fi
 
 ## Services
 
-### [`alpine`](./docker-compose.yml#L75)
+### [`alpine`](./docker-compose.yml#L4)
 
 **Description:** A minimal Alpine Linux container with your local directory mounted in `/data`.
 
@@ -38,7 +38,7 @@ docker-compose \
 
 ---
 
-### [`cleanup`](./docker-compose.yml#L94)
+### [`cleanup`](./docker-compose.yml#L12)
 
 **Description:** Forcefully removes the local `build` directory and recreates an empty one.
 
