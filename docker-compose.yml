@@ -1,15 +1,1 @@
-name: compose
-
-services:
-  alpine: &alpine
-    container_name: alpine
-    image: alpine:3
-    user: "${UID}:${GID}"
-    volumes:
-      - .:/data
-    working_dir: /data
-
-  cleanup:
-    <<: *alpine
-    container_name: cleanup
-    command: sh -c "rm -rf build && mkdir build"
+compose-util/docker-compose.yml
